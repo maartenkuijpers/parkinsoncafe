@@ -767,7 +767,7 @@ img.wp-smiley,
 	border-left: 1px solid #f2f2f2;
 	border-right: 1px solid #f2f2f2;
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 100%;
 	width: 100%;
 }
 
@@ -799,9 +799,10 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
-.site-header {
+.site-header  {
 	position: relative;
-}
+	background-color: #6E90A6 !important;
+} 
 
 .site-header .home-link {
 	color: #141412;
@@ -923,7 +924,7 @@ ul.nav-menu li:hover > ul,
 .navbar {
 	background-color: #f8b358;
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 100%;
 	width: 100%;
 }
 
